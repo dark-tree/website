@@ -1,0 +1,96 @@
+
+@keyframes column {
+	from {
+		opacity: 0;
+		margin-top: 50px;
+		color: #A7A7A7;
+	}
+
+	to {
+		opacity: 1;
+		margin-top: 0px;
+		color: #CFCFCF;
+	}
+}
+
+@keyframes load {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes warmup {
+	0% {
+		object-position: 0px 0px;
+	}
+
+	30% {
+		object-position: var(--max-amplitude) 0px;
+	}
+
+	50% {
+		object-position: var(--max-amplitude) var(--min-amplitude);
+	}
+
+	60% {
+		object-position: var(--min-amplitude) var(--max-amplitude);
+	}
+
+	80% {
+		object-position: var(--max-amplitude) var(--max-amplitude);
+	}
+
+	90% {
+		object-position: var(--min-amplitude) var(--max-amplitude);
+	}
+
+	100% {
+		object-position: var(--max-amplitude) var(--min-amplitude);
+	}
+}
+
+@keyframes shake {
+	0% {
+		object-position: var(--min-amplitude) var(--max-amplitude);
+	}
+
+	10% {
+		object-position: var(--max-amplitude) var(--max-amplitude);
+	}
+
+	20% {
+		object-position: var(--min-amplitude) var(--max-amplitude);
+	}
+
+	30% {
+		object-position: var(--max-amplitude) var(--max-amplitude);
+	}
+
+	40% {
+		object-position: var(--min-amplitude) var(--min-amplitude);
+	}
+
+	50% {
+		object-position: var(--max-amplitude) var(--min-amplitude);
+	}
+
+	60% {
+		object-position: var(--max-amplitude) var(--max-amplitude);
+	}
+
+	70% {
+		object-position: var(--max-amplitude) var(--min-amplitude);
+	}
+
+	90% {
+		object-position: var(--min-amplitude) var(--min-amplitude);
+	}
+
+	100% {
+		object-position: var(--min-amplitude) var(--max-amplitude);
+	}
+}

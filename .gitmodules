@@ -1,0 +1,3 @@
+[submodule "starward"]
+	path = starward
+	url = https://github.com/dark-tree/starward.git
